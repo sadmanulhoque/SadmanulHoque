@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { Home, Code2, CircleUser, Mail, Sun, Moon } from 'lucide-react';
 import Hero from '@/components/frontend/Hero';
-import Experience from './components/frontend/Experience';
+import Experience from '@/components/frontend/Experience';
 import { Separator } from '@/components/ui/separator';
 import {
   Tooltip,
@@ -10,15 +10,15 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
-import Educations from './components/frontend/Educations';
-import Skills from './components/frontend/Skills';
-import Tools from './components/frontend/Tools';
-import Projects from './components/frontend/Projects';
-import Extracuricular from './components/frontend/Extracuricular';
+import Educations from '@/components/frontend/Educations';
+import Skills from '@/components/frontend/Skills';
+import Tools from '@/components/frontend/Tools';
+import Projects from '@/components/frontend/Projects';
+import Extracuricular from '@/components/frontend/Extracuricular';
 import { DATA } from '@/config/data';
-import Certifications from './components/frontend/Certifications';
-import Services from './components/frontend/Services';
-import Footer from './components/frontend/Footer';
+import Certifications from '@/components/frontend/Certifications';
+import Services from '@/components/frontend/Services';
+import Footer from '@/components/frontend/Footer';
 
 export default function App() {
     const [isDark, setIsDark] = useState(() => {
