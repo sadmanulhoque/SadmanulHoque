@@ -10,6 +10,9 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
+import Educations from './components/frontend/educations';
+import Skills from './components/frontend/skills';
+import Tools from './components/frontend/tools';
 
 export default function App() {
     const [isDark, setIsDark] = useState(() => {
@@ -39,6 +42,9 @@ export default function App() {
                     {/* Hero Section */}
                     <Hero />
                     <Experience/>
+                    <Educations/>
+                    <Skills/>
+                    <Tools/>
                 </main>
 
                 {/* Floating Dock / Navigation */}
