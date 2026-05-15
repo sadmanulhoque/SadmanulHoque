@@ -1,8 +1,8 @@
 
-import React, { useState, useEffect } from 'react';
-import { Home, Code2, ExternalLink, CircleUser, Mail, Sun, Moon } from 'lucide-react';
-import Hero from '@/components/frontend/hero';
-import Experience from './components/frontend/experience';
+import { useState, useEffect } from 'react';
+import { Home, Code2, CircleUser, Mail, Sun, Moon } from 'lucide-react';
+import Hero from '@/components/frontend/Hero';
+import Experience from './components/frontend/Experience';
 import { Separator } from '@/components/ui/separator';
 import {
   Tooltip,
@@ -10,9 +10,15 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
-import Educations from './components/frontend/educations';
-import Skills from './components/frontend/skills';
-import Tools from './components/frontend/tools';
+import Educations from './components/frontend/Educations';
+import Skills from './components/frontend/Skills';
+import Tools from './components/frontend/Tools';
+import Projects from './components/frontend/Projects';
+import Extracuricular from './components/frontend/Extracuricular';
+import { DATA } from '@/config/data';
+import Certifications from './components/frontend/Certifications';
+import Services from './components/frontend/Services';
+import Footer from './components/frontend/Footer';
 
 export default function App() {
     const [isDark, setIsDark] = useState(() => {
@@ -45,6 +51,11 @@ export default function App() {
                     <Educations/>
                     <Skills/>
                     <Tools/>
+                    <Projects/>
+                    <Extracuricular extracuriculars={DATA.extracurricular} />
+                    <Certifications/>
+                    <Services/>
+                    <Footer/>
                 </main>
 
                 {/* Floating Dock / Navigation */}
@@ -66,7 +77,7 @@ export default function App() {
                         />
 
                         <DockItem
-                            icon={<ExternalLink className="h-5 w-5" />}
+                            icon={<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqb4aFJSgx2l9M0cVr9JQ8k5PmOUDICY8k-Y9VVYljJw&s" alt="GitHub" className="h-5 w-5" />}
                             label="GitHub"
                             href="https://github.com"
                         />

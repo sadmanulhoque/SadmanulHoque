@@ -108,6 +108,26 @@ export const DATA = {
         { name: "Jira", image: "" },
     ],
 
+    // Services
+    services: [
+        {
+            title: "AI & Embedded Systems",
+            description: "Skilled in developing AI-powered systems, machine learning models, IoT automation, and smart hardware projects."
+        },
+        {
+            title: "Custom Business Solutions",
+            description: "Experienced in building CRM, ERP, POS workflow automation, and scalable business management systems."
+        },
+        {
+            title: "Database & System Architecture",
+            description: "Experienced in designing optimized databases, secure system architecture, and high-performance application structures."
+        },
+        {
+            title: "Network Design & Simulation",
+            description: "Skilled in designing and simulating computer networks using Cisco Packet Tracer and networking."
+        },
+    ],
+
     // Navigation
     navbar: [
         { href: "/", label: "Home" },
@@ -115,6 +135,24 @@ export const DATA = {
         { href: "/projects", label: "Projects" },
         { href: "/contact", label: "Contact" },
     ],
+
+    // Certifications
+    certifications: {
+        ai: [
+            { title: "Machine Learning with Python", institution: "IBM", org: "Coursera", year: "Dec 2024", image_url: "" },
+            { title: "Data Visualization with Python", institution: "IBM", org: "Coursera", year: "Dec 2024", image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS28ACx2SQ-kDTr7e_pm7gvyrKVcaod6MaIfVThVy4U_Q&s=10" },
+            { title: "Data Analysis with Python", institution: "IBM", org: "Coursera", year: "Jan 2025", image_url: "" },
+            { title: "Python Basics", institution: "University of Michigan", org: "Coursera", year: "Dec 2024", image_url: "" },
+            { title: "Managing Big Data with MySQL", institution: "Duke University", org: "Coursera", year: "Dec 2024", image_url: "" },
+        ],
+        software: [
+            { title: "Web Development with HTML, CSS, JavaScript Essentials", institution: "IBM", org: "Coursera", year: "Jan 2025", image_url: "" },
+            { title: "Learning Management System (LMS)", institution: "Udemy", org: "", year: "Jan 2025", image_url: "" },
+            { title: "Managing Big Data with MYSQL", institution: "Duke University", org: "Coursera", year: "Dec 2024", image_url: "" },
+            { title: "Relational Databases (RDBMS) Essentials", institution: "IBM", org: "Coursera", year: "Jan 2025", image_url: "" },
+            { title: "Introduction to Software Product Management", institution: "University of Alberta", org: "Coursera", year: "Jan 2025", image_url: "" },
+        ]
+    },
 
     // Contact Section
     contact: {
@@ -148,29 +186,132 @@ export const DATA = {
         },
     },
 
+    // Footer Section
+    footer: {
+        title: "Get in Touch",
+        description: "Want to chat? Just shoot me a dm with a direct question and I'll respond whenever I can.",
+        copyright: "All rights reserved.",
+        year: 2026,
+    },
+
     // Projects Section
     projects: [
         {
-            title: "Project Name",
-            href: "https://project.com",
-            dates: "Month Year - Present",
-            active: true,
-            description: "Project description and what it does.",
-            technologies: ["React", "Node.js", "PostgreSQL"],
-            links: [
-                {
-                    type: "Website",
-                    href: "https://project.com",
-                    icon: "globe",
-                },
-                {
-                    type: "Source",
-                    href: "https://github.com/username/project",
-                    icon: "github",
-                },
-            ],
+            title: "Sanas Fashion",
+            description: "E-commerce platform for fashion items with full-stack development.",
             image: "",
-            video: "",
+            technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery", "PHP", "Laravel", "MySQL", "Postman", "Apache Server"],
+            practices: ["SOLID Design Principles", "Service Layer Architecture", "Repository Pattern"],
+            tools: ["VS Code", "GitHub", "Draw.io", "Herd", "Composer", "OpenProject", "DrawSQL", "NPM CLI", "Laragon", "HeidiSQL"],
+            links: [
+                { type: "Demo", href: "#", icon: "globe" },
+            ],
+        },
+        {
+            title: "SpaceX Falcon 9 1st stage Success-Landing Prediction",
+            description: "Predict if the Falcon 9 first stage will land successfully.",
+            image: "",
+            technologies: ["Python", "Classification Models"],
+            practices: [],
+            tools: ["GitHub", "Colab"],
+            links: [
+                { type: "Source", href: "#", icon: "github" },
+            ],
+        },
+        {
+            title: "Smart Plant Watering Embedded System",
+            description: "Arduino with Soil Moisture, DHT11, Ultrasonic, Water Flow sensors for automation and monitoring.",
+            image: "",
+            technologies: ["C++", "Arduino", "Embedded System Sensor Integration"],
+            practices: [],
+            tools: ["Tinkercad", "GitHub"],
+            links: [
+                { type: "Source", href: "#", icon: "github" },
+                { type: "Demo", href: "#", icon: "globe" },
+            ],
+        },
+        {
+            title: "Network Configurations and Simulations",
+            description: "DHCP, DNS, Web, Mail, and FTP servers along with Static Routing, RIP, and OSPF.",
+            image: "",
+            technologies: ["Cisco Packet Tracer"],
+            practices: [],
+            tools: ["GitHub"],
+            links: [
+                { type: "Source", href: "#", icon: "github" },
+            ],
+        },
+    ],
+
+    // Extracurricular Activities Section
+    extracurricular: [
+        {
+            title: "NASA International Space App Challenge",
+            org: "NASA",
+            year: "2024",
+            desc: "Awarded the Galactic Problem Solver recognition for collaborative problem-solving on Earth and space challenges.",
+            slug: "nasa-space-app-challenge",
+            image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvXXXXXXXX",
+            media_1: "",
+            media_thumb_1: "",
+            media_type_1: "",
+            media_2: "",
+            media_thumb_2: "",
+            media_type_2: "",
+            media_3: "",
+            media_thumb_3: "",
+            media_type_3: "",
+        },
+        {
+            title: "Y Combinator Spring 2026 Applicant (BuildHub)",
+            org: "Y Combinator",
+            year: "2026",
+            desc: "Applied as a solo founder with BuildHub, a platform designed to enable collaboration among engineers and students.",
+            slug: "y-combinator-buildhub",
+            image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvXXXXXXXX",
+            media_1: "",
+            media_thumb_1: "",
+            media_type_1: "",
+            media_2: "",
+            media_thumb_2: "",
+            media_type_2: "",
+            media_3: "",
+            media_thumb_3: "",
+            media_type_3: "",
+        },
+        {
+            title: "General Member",
+            org: "Southeast University Cultural Club",
+            year: "2023",
+            desc: "Participated in university cultural club, performing guitar and vocals at campus events.",
+            slug: "seau-cultural-club",
+            image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvXXXXXXXX",
+            media_1: "https://via.placeholder.com/400x300?text=Photo",
+            media_thumb_1: "https://via.placeholder.com/100x75?text=Photo",
+            media_type_1: "photo",
+            media_2: "https://youtu.be/XXXXXXXXXXX",
+            media_thumb_2: "https://via.placeholder.com/100x75?text=Video",
+            media_type_2: "video",
+            media_3: "https://youtu.be/XXXXXXXXXXX",
+            media_thumb_3: "https://via.placeholder.com/100x75?text=Video",
+            media_type_3: "video",
+        },
+        {
+            title: "Runner-up",
+            org: "ALL TIME BUSINESS FEST BANGLADESH",
+            year: "2024",
+            desc: "Certificate of Recognition",
+            slug: "business-fest-runner-up",
+            image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvXXXXXXXX",
+            media_1: "",
+            media_thumb_1: "",
+            media_type_1: "",
+            media_2: "",
+            media_thumb_2: "",
+            media_type_2: "",
+            media_3: "",
+            media_thumb_3: "",
+            media_type_3: "",
         },
     ],
 };
