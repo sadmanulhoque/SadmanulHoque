@@ -85,7 +85,7 @@ export default function App() {
                         />
 
                         <DockItem
-                            icon={<img src={linkedinIcon} alt="LinkedIn" className="h-5 w-5 dark:invert" />}
+                            icon={<img src={linkedinIcon} alt="LinkedIn" className="h-5 w-5" />}
                             label="LinkedIn"
                             href={DATA.contact.social.LinkedIn.url}
                         />
