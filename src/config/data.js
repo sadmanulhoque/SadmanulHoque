@@ -26,8 +26,7 @@ import micigan from "../assets/images/certifications/michigan_university.png";
 import duke from "../assets/images/certifications/duk_university.png";
 import udemy from "../assets/images/certifications/udemy.png";
 import alberta from "../assets/images/certifications/alberta_university.png";
-import githubIcon from "../assets/images/common/github.png";
-
+import githubIcon from "../assets/images/common/github.png";import linkedinIcon from "../assets/images/common/linkedin.png";
 import ardunio from "../assets/images/projects/featured_projects/ardunio.png";
 import networking from "../assets/images/projects/featured_projects/networking.png";
 import sanasfashion from "../assets/images/projects/featured_projects/sanasfashion.png";
@@ -275,14 +274,14 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/yourusername",
+        url: "https://github.com/sadmanulhoque",
         icon: githubIcon,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/yourusername",
-        icon: "linkedin",
+        url: "https://www.linkedin.com/in/sadmanul-hoque",
+        icon: linkedinIcon,
         navbar: true,
       },
       Twitter: {
