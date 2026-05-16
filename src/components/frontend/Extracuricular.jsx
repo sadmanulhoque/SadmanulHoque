@@ -19,8 +19,13 @@ function isVideoUrl(url) {
 export default function Extracuricular({ extracuriculars }) {
     const [previewImage, setPreviewImage] = useState(null);
     const [previewZoom, setPreviewZoom] = useState(1);
+    const [failedImages, setFailedImages] = useState(new Set());
     const previewScrollRef = useRef(null);
     const previewImgRef = useRef(null);
+
+    const handleImageError = (slug) => {
+        setFailedImages(prev => new Set([...prev, slug]));
+    };
 
     const handlePreviewDoubleClick = (event) => {
         const scrollArea = previewScrollRef.current;
@@ -83,14 +88,15 @@ export default function Extracuricular({ extracuriculars }) {
                         return (
                             <div key={i} className="flex gap-4">
                                 <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full border bg-background shadow-sm">
-                                    {item.image || item.image_url ? (
+                                    {(!item.image && !item.image_url) || failedImages.has(item.slug) ? (
+                                        <Trophy className="h-5 w-5 text-foreground" />
+                                    ) : (
                                         <img
                                             src={item.image || item.image_url}
                                             alt={item.title}
+                                            onError={() => handleImageError(item.slug)}
                                             className="h-full w-full object-cover"
                                         />
-                                    ) : (
-                                        <Trophy className="h-5 w-5 text-foreground" />
                                     )}
                                 </div>
                                 <div className="min-w-0 flex-1 space-y-1">

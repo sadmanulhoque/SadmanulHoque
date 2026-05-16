@@ -1,13 +1,33 @@
 // Main configuration file for portfolio/resume data
 // Edit this file to update your portfolio content across the entire site
 
+import profileImage from "../assets/images/profile/profile.jpg";
+import pranrflLogo from "../assets/images/work_experience/pranrfl.jpg";
+import uniImage from "../assets/images/education/uni.png";
+import collegeImage from "../assets/images/education/college.png";
+import schoolImage from "../assets/images/education/school.png";
+import htmlImage from "../assets/images/skills/html.webp";
+import cssImage from "../assets/images/skills/css.png";
+import bootstrapImage from "../assets/images/skills/bootstrap.png";
+import shadcnImage from "../assets/images/skills/shadcn.png";
+import jsImage from "../assets/images/skills/js.png";
+import cImage from "../assets/images/skills/c.png";
+import javaImage from "../assets/images/skills/java.png";
+import javafxImage from "../assets/images/skills/javafx.png";
+import nasaImage from "../assets/images/extracuriculars/nasa.svg";
+import yImage from "../assets/images/extracuriculars/ycombinator.webp";
+import seuImage from "../assets/images/extracuriculars/seu.png";
+import song1 from "../assets/images/extracuriculars/uni_cultural_club/1.jpg";
+import song2 from "../assets/images/extracuriculars/uni_cultural_club/2.jpg";
+import song3 from "../assets/images/extracuriculars/uni_cultural_club/3.png";
+
 export const DATA = {
   // Hero Section
   name: "Sadmanul Hoque",
   initials: "SH",
   description:
     "Graduated with a 91% CGPA in B.Sc. in Computer Science & Engineering. Awarded Merit Scholarship for outstanding academic performance. Industry experience building production ready systems.",
-  avatarUrl: "../assets/images/profile/profile.jpg",
+  avatarUrl: profileImage,
   role: "Software Engineer",
 
   // Experience Section
@@ -16,7 +36,7 @@ export const DATA = {
       title: "MTO- Software Engineer PHP Developer",
       company: "PRAN-RFL GROUP",
       href: "https://company.com",
-      logoUrl: "../assets/images/work_experience/pranrfl.jpg",
+      logoUrl: pranrflLogo,
       start: "",
       end: "",
       description:
@@ -32,7 +52,7 @@ export const DATA = {
       year: "2021 - 2025",
       cgpa: "CGPA: 3.63/4.00",
       note: "Merit Scholarship",
-      image_url: "../assets/images/education/uni.png",
+      image_url: uniImage,
     },
     {
       degree_title: "Higher Secondary Certificate (H.S.C)",
@@ -41,7 +61,7 @@ export const DATA = {
       cgpa: "GPA: 5.00/5.00",
       note: "",
       image: "",
-      image_url: "../assets/images/education/college.png",
+      image_url: collegeImage,
     },
     {
       degree_title: "Secondary School Certificate (S.S.C)",
@@ -50,61 +70,61 @@ export const DATA = {
       cgpa: "GPA: 4.56/5.00",
       note: "",
       image: "",
-      image_url: "../assets/images/education/school.png",
+      image_url: schoolImage,
     },
   ],
 
   // Skills Section
   skills: [
-    { name: "HTML", image: "../assets/images/skills/html.webp" },
-    { name: "CSS", image: "../assets/images/skills/css.png" },
-    { name: "Bootstrap", image: "../assets/images/skills/bootstrap.png" },
-    { name: "Shadcn UI", image: "../assets/images/skills/shadcn.png" },
-    { name: "JavaScript", image: "../assets/images/skills/js.png" },
-    { name: "C", image: "../assets/images/skills/c.png" },
-    { name: "C++", image: "../assets/images/skills/c.png" },
-    { name: "Java", image: "../assets/images/skills/java.png" },
-    { name: "JavaFX", image: "../assets/images/skills/javafx.png" },
-    { name: "jQuery", image: "../assets/images/skills/jquery.png" },
-    { name: "PHP", image: "../assets/images/skills/php.png" },
-    { name: "Laravel", image: "../assets/images/skills/laravel.png" },
-    { name: "React", image: "../assets/images/skills/react.png" },
-    { name: "ASP .NET", image: "../assets/images/skills/aspnet.png" },
-    { name: "Next.js", image: "../assets/images/skills/nextjs.png" },
-    { name: "MySQL", image: "../assets/images/skills/mysql.png" },
-    { name: "MSSQL Server", image: "../assets/images/skills/mssql.png" },
-    { name: "Rabbit MQ", image: "../assets/images/skills/rabbitmq.png" },
-    { name: "TypeScript", image: "../assets/images/skills/typescript.png" },
-    { name: "Jenkins", image: "../assets/images/skills/jenkins.png" },
-    { name: "Nginx Server", image: "../assets/images/skills/nginx.png" },
-    { name: "Apache Server", image: "../assets/images/skills/apache.png" },
-    { name: "Postman", image: "../assets/images/skills/postman.png" },
-    { name: "Cisco Packet Tracer", image: "../assets/images/skills/cisco.png" },
-    { name: "Arduino", image: "../assets/images/skills/arduino.png" },
-    { name: "Tinkercad", image: "../assets/images/skills/tinkercad.png" },
+    { name: "HTML", image: htmlImage },
+    { name: "CSS", image: cssImage },
+    { name: "Bootstrap", image: bootstrapImage },
+    { name: "Shadcn UI", image: shadcnImage },
+    { name: "JavaScript", image: jsImage },
+    { name: "C", image: cImage },
+    { name: "C++", image: cImage },
+    { name: "Java", image: javaImage },
+    { name: "JavaFX", image: javafxImage },
+    { name: "jQuery", image: "" },
+    { name: "PHP", image: "" },
+    { name: "Laravel", image: "" },
+    { name: "React", image: "" },
+    { name: "ASP .NET", image: "" },
+    { name: "Next.js", image: "" },
+    { name: "MySQL", image: "" },
+    { name: "MSSQL Server", image: "" },
+    { name: "Rabbit MQ", image: "" },
+    { name: "TypeScript", image: "" },
+    { name: "Jenkins", image: "" },
+    { name: "Nginx Server", image: "" },
+    { name: "Apache Server", image: "" },
+    { name: "Postman", image: "" },
+    { name: "Cisco Packet Tracer", image: "" },
+    { name: "Arduino", image: "" },
+    { name: "Tinkercad", image: "" },
     {
       name: "SOLID Design Principles",
-      image: "../assets/images/skills/solid.png",
+      image: "",
     },
     {
       name: "Repository Pattern",
-      image: "../assets/images/skills/repository-pattern.png",
+      image: "",
     },
     {
       name: "Service Layer Architecture",
-      image: "../assets/images/skills/service-layer.png",
+      image: "",
     },
     {
       name: "Embedded System Sensor Integration",
-      image: "../assets/images/skills/embedded-system.png",
+      image: "",
     },
     {
       name: "Classification Models",
-      image: "../assets/images/skills/classification-models.png",
+      image: "",
     },
     {
       name: "Regression Models",
-      image: "../assets/images/skills/regression-models.png",
+      image: "",
     },
   ],
 
@@ -359,8 +379,7 @@ export const DATA = {
       year: "2024",
       desc: "Awarded the Galactic Problem Solver recognition for collaborative problem-solving on Earth and space challenges.",
       slug: "nasa-space-app-challenge",
-      image_url:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvXXXXXXXX",
+      image_url: nasaImage,
       media_1: "",
       media_thumb_1: "",
       media_type_1: "",
@@ -377,8 +396,7 @@ export const DATA = {
       year: "2026",
       desc: "Applied as a solo founder with BuildHub, a platform designed to enable collaboration among engineers and students.",
       slug: "y-combinator-buildhub",
-      image_url:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvXXXXXXXX",
+      image_url: yImage,
       media_1: "",
       media_thumb_1: "",
       media_type_1: "",
@@ -395,16 +413,15 @@ export const DATA = {
       year: "2023",
       desc: "Participated in university cultural club, performing guitar and vocals at campus events.",
       slug: "seau-cultural-club",
-      image_url:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvXXXXXXXX",
-      media_1: "https://via.placeholder.com/400x300?text=Photo",
-      media_thumb_1: "https://via.placeholder.com/100x75?text=Photo",
+      image_url: seuImage,
+      media_1: "",
+      media_thumb_1: song1,
       media_type_1: "photo",
-      media_2: "https://youtu.be/XXXXXXXXXXX",
-      media_thumb_2: "https://via.placeholder.com/100x75?text=Video",
+      media_2: "https://www.youtube.com/watch?v=yjUu3YcyPZw",
+      media_thumb_2: song2,
       media_type_2: "video",
-      media_3: "https://youtu.be/XXXXXXXXXXX",
-      media_thumb_3: "https://via.placeholder.com/100x75?text=Video",
+      media_3: "https://www.youtube.com/watch?v=yjUu3YcyPZw",
+      media_thumb_3: song3,
       media_type_3: "video",
     },
     {
