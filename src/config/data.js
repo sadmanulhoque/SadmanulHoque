@@ -269,8 +269,7 @@ export const DATA = {
 
   // Contact Section
   contact: {
-    email: "your.email@example.com",
-    tel: "+1-234-567-8900",
+    email: "sadmanulhoque21@gmail.com",
     social: {
       GitHub: {
         name: "GitHub",
@@ -284,15 +283,9 @@ export const DATA = {
         icon: linkedinIcon,
         navbar: true,
       },
-      Twitter: {
-        name: "Twitter",
-        url: "https://twitter.com/yourusername",
-        icon: "twitter",
-        navbar: true,
-      },
       Email: {
         name: "Send Email",
-        url: "mailto:your.email@example.com",
+        url: "mailto:sadmanulhoque21@gmail.com",
         icon: "email",
         navbar: false,
       },

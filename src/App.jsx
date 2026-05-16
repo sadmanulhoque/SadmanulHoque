@@ -20,6 +20,7 @@ import Certifications from '@/components/frontend/Certifications';
 import Services from '@/components/frontend/Services';
 import Footer from '@/components/frontend/Footer';
 import githubIcon from '@/assets/images/common/github.png';
+import linkedinIcon from '@/assets/images/common/linkedin.png';
 
 export default function App() {
     const [isDark, setIsDark] = useState(() => {
@@ -80,13 +81,13 @@ export default function App() {
                         <DockItem
                             icon={<img src={githubIcon} alt="GitHub" className="h-5 w-5 dark:invert" />}
                             label="GitHub"
-                            href="https://github.com"
+                            href={DATA.contact.social.GitHub.url}
                         />
 
                         <DockItem
-                            icon={<CircleUser className="h-5 w-5" />}
+                            icon={<img src={linkedinIcon} alt="LinkedIn" className="h-5 w-5 dark:invert" />}
                             label="LinkedIn"
-                            href="https://linkedin.com"
+                            href={DATA.contact.social.LinkedIn.url}
                         />
 
                         <DockItem
