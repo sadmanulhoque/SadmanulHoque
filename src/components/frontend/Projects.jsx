@@ -1,4 +1,4 @@
-import { ExternalLink, Layers } from 'lucide-react';
+import { ExternalLink, Layers, ArrowRight } from 'lucide-react';
 import {
     Card,
     CardContent,
@@ -125,6 +125,20 @@ export default function Projects() {
                         );
                     })}
                 </div>
+                {DATA.seeMoreProjects?.href && (
+                    <div className="flex justify-center pt-4">
+                        <Button
+                            asChild
+                            className="gap-2"
+                            variant="ghost"
+                        >
+                            <a href={DATA.seeMoreProjects.href} target="_blank" rel="noreferrer">
+                                {DATA.seeMoreProjects.label}
+                                <ArrowRight className="h-4 w-4" />
+                            </a>
+                        </Button>
+                    </div>
+                )}
             </section>
     </div>
   )

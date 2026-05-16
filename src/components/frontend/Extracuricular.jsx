@@ -64,7 +64,7 @@ export default function Extracuricular({ extracuriculars }) {
                     Extracurricular Activities
                 </h2>
                 <div className="space-y-6">
-                    {extracuriculars.map((item, i) => {
+                    {extracuriculars.filter(item => item.status !== false).map((item, i) => {
                         const mediaItems = [
                             {
                                 media: item.media_1,
