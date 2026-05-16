@@ -345,7 +345,7 @@ export const DATA = {
         "Laragon",
         "HeidiSQL",
       ],
-      links: [{ type: "Demo", href: "#", icon: "globe" }],
+      links: [{ type: "Live", href: "https://sanasfashion.com", icon: "globe" }],
     },
     {
       title: "SpaceX Falcon 9 1st stage Success-Landing Prediction",
@@ -355,7 +355,7 @@ export const DATA = {
       technologies: ["Python", "Classification Models"],
       practices: [],
       tools: ["GitHub", "Colab"],
-      links: [{ type: "Source", href: "#", icon: githubIcon }],
+      links: [{ type: "Source", href: "https://github.com/sadmanulhoque/SpaceX-Falcon-9-1st-stage-Success-Landing-Prediction", icon: githubIcon }],
     },
     {
       title: "Smart Plant Watering Embedded System",
@@ -366,8 +366,8 @@ export const DATA = {
       practices: [],
       tools: ["Tinkercad", "GitHub"],
       links: [
-        { type: "Source", href: "#", icon: githubIcon },
-        { type: "Demo", href: "#", icon: "globe" },
+        { type: "Source", href: "https://github.com/sadmanulhoque/Smart-Plant-Watering-System-Using-Ardunio", icon: githubIcon },
+        { type: "Demo", href: "https://youtu.be/L57otuE7jIE", icon: "globe" },
       ],
     },
     {
@@ -378,7 +378,7 @@ export const DATA = {
       technologies: ["Cisco Packet Tracer"],
       practices: [],
       tools: ["GitHub"],
-      links: [{ type: "Source", href: "#", icon: githubIcon }],
+      links: [{ type: "Source", href: "https://github.com/sadmanulhoque/Computer-Networking", icon: githubIcon }],
     },
   ],
 

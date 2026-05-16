@@ -114,7 +114,7 @@ export default function Projects() {
                                                             className="h-3 w-3 dark:invert"
                                                         />
                                                     )}
-                                                    {link.type === 'Demo' && <ExternalLink className="h-3 w-3" />}
+                                                    {(link.type === 'Demo' || link.type === 'Live') && <ExternalLink className="h-3 w-3" />}
                                                     {link.type}
                                                 </a>
                                             </Button>
