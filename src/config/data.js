@@ -28,6 +28,11 @@ import udemy from "../assets/images/certifications/udemy.png";
 import alberta from "../assets/images/certifications/alberta_university.png";
 import githubIcon from "../assets/images/common/github.png";
 
+import ardunio from "../assets/images/projects/featured_projects/ardunio.png";
+import networking from "../assets/images/projects/featured_projects/networking.png";
+import sanasfashion from "../assets/images/projects/featured_projects/sanasfashion.png";
+import spacex from "../assets/images/projects/featured_projects/spacex.gif";
+
 export const DATA = {
   // Hero Section
   name: "Sadmanul Hoque",
@@ -310,7 +315,7 @@ export const DATA = {
       title: "Sanas Fashion",
       description:
         "E-commerce platform for fashion items with full-stack development.",
-      image: "",
+      image: sanasfashion,
       technologies: [
         "HTML",
         "CSS",
@@ -346,7 +351,7 @@ export const DATA = {
       title: "SpaceX Falcon 9 1st stage Success-Landing Prediction",
       description:
         "Predict if the Falcon 9 first stage will land successfully.",
-      image: "",
+      image: spacex,
       technologies: ["Python", "Classification Models"],
       practices: [],
       tools: ["GitHub", "Colab"],
@@ -356,7 +361,7 @@ export const DATA = {
       title: "Smart Plant Watering Embedded System",
       description:
         "Arduino with Soil Moisture, DHT11, Ultrasonic, Water Flow sensors for automation and monitoring.",
-      image: "",
+      image: ardunio,
       technologies: ["C++", "Arduino", "Embedded System Sensor Integration"],
       practices: [],
       tools: ["Tinkercad", "GitHub"],
@@ -369,7 +374,7 @@ export const DATA = {
       title: "Network Configurations and Simulations",
       description:
         "DHCP, DNS, Web, Mail, and FTP servers along with Static Routing, RIP, and OSPF.",
-      image: "",
+      image: networking,
       technologies: ["Cisco Packet Tracer"],
       practices: [],
       tools: ["GitHub"],
