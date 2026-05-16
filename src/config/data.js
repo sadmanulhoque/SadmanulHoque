@@ -44,6 +44,20 @@ import duke from "../assets/images/certifications/duk_university.png";
 import udemy from "../assets/images/certifications/udemy.png";
 import alberta from "../assets/images/certifications/alberta_university.png";
 import githubIcon from "../assets/images/common/github.png";import linkedinIcon from "../assets/images/common/linkedin.png";
+import vsCodeImage from "../assets/images/tools/vs_code.svg";
+import gitlabImage from "../assets/images/tools/gitlab.svg";
+import npmImage from "../assets/images/tools/npm.svg";
+import drawImage from "../assets/images/tools/draw.png";
+import drawsqlImage from "../assets/images/tools/drawsql.ico";
+import dockerImage from "../assets/images/tools/docker.svg";
+import colabImage from "../assets/images/tools/colab.svg";
+import laragonImage from "../assets/images/tools/laragon.png";
+import herdImage from "../assets/images/tools/herd.png";
+import linuxImage from "../assets/images/tools/linux.jpg";
+import composerImage from "../assets/images/tools/composer.png";
+import heidisqlImage from "../assets/images/tools/heidisql.png";
+import openprojectImage from "../assets/images/tools/openproject.svg";
+import jiraImage from "../assets/images/tools/jira.svg";
 import ardunio from "../assets/images/projects/featured_projects/ardunio.png";
 import networking from "../assets/images/projects/featured_projects/networking.png";
 import sanasfashion from "../assets/images/projects/featured_projects/sanasfashion.png";
@@ -158,20 +172,20 @@ export const DATA = {
 
   // Tools Section
   tools: [
-    { name: "VS Code", image: "" },
-    { name: "GitLab", image: "" },
+    { name: "VS Code", image: vsCodeImage },
+    { name: "GitLab", image: gitlabImage },
     { name: "GitHub", image: githubIcon },
-    { name: "NPM CLI", image: "" },
-    { name: "Draw.io", image: "" },
-    { name: "Docker", image: "" },
-    { name: "Colab", image: "" },
-    { name: "Laragon", image: "" },
-    { name: "Herd", image: "" },
-    { name: "Linux", image: "" },
-    { name: "Composer", image: "" },
-    { name: "HeidiSQL", image: "" },
-    { name: "OpenProject", image: "" },
-    { name: "Jira", image: "" },
+    { name: "NPM CLI", image: npmImage },
+    { name: "Draw.io", image: drawImage },
+    { name: "Docker", image: dockerImage },
+    { name: "Colab", image: colabImage },
+    { name: "Laragon", image: laragonImage },
+    { name: "Herd", image: herdImage },
+    { name: "Linux", image: linuxImage },
+    { name: "Composer", image: composerImage },
+    { name: "HeidiSQL", image: heidisqlImage },
+    { name: "OpenProject", image: openprojectImage },
+    { name: "Jira", image: jiraImage },
   ],
 
   // Services

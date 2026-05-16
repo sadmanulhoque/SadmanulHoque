@@ -17,7 +17,9 @@ export default function Tools() {
                                         <img
                                             src={tool.image_url || tool.image}
                                             alt={tool.name}
-                                            className="h-4 w-4 rounded-sm object-contain shrink-0"
+                                            className={`h-4 w-4 rounded-sm object-contain shrink-0 ${
+                                              tool.name === 'GitHub' ? 'dark:invert' : ''
+                                            }`}
                                           
                                         />
                                     )}
