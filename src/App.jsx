@@ -46,8 +46,8 @@ export default function App() {
     return (
         <TooltipProvider>
             <div className="min-h-screen bg-background font-sans text-foreground selection:bg-primary/10">
-                <main className="mx-auto max-w-2xl space-y-24 px-6 py-20">
-                    {/* Hero Section */}
+                <main className="mx-auto max-w-2xl space-y-15 px-6 py-20">
+                    {/* Hero Section  gap space-y-24 */}
                     <Hero />
                     <Experience/>
                     <Educations/>
