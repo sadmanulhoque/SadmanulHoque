@@ -14,6 +14,23 @@ import jsImage from "../assets/images/skills/js.png";
 import cImage from "../assets/images/skills/c.png";
 import javaImage from "../assets/images/skills/java.png";
 import javafxImage from "../assets/images/skills/javafx.png";
+import jqueryImage from "../assets/images/skills/jquery.svg";
+import phpImage from "../assets/images/skills/php.svg";
+import laravelImage from "../assets/images/skills/laravel.svg";
+import reactImage from "../assets/images/skills/react.svg";
+import aspImage from "../assets/images/skills/asp.png";
+import nextjsImage from "../assets/images/skills/nextjs.svg";
+import mysqlImage from "../assets/images/skills/mysql.png";
+import mssqlImage from "../assets/images/skills/sql_server.png";
+import rabbitmqImage from "../assets/images/skills/rabbitmq.svg";
+import tsImage from "../assets/images/skills/ts.svg";
+import jenkinsImage from "../assets/images/skills/jenkins.png";
+import nginxImage from "../assets/images/skills/ngnx.svg";
+import apacheImage from "../assets/images/skills/apahe.svg";
+import postmanImage from "../assets/images/skills/postman.svg";
+import ciscoImage from "../assets/images/skills/cisco.svg";
+import arduinoImage from "../assets/images/skills/ardunio.svg";
+import tinkercadImage from "../assets/images/skills/tinkercad.png";
 import nasaImage from "../assets/images/extracuriculars/nasa.svg";
 import yImage from "../assets/images/extracuriculars/ycombinator.webp";
 import seuImage from "../assets/images/extracuriculars/seu.png";
@@ -96,23 +113,23 @@ export const DATA = {
     { name: "C++", image: cImage },
     { name: "Java", image: javaImage },
     { name: "JavaFX", image: javafxImage },
-    { name: "jQuery", image: "" },
-    { name: "PHP", image: "" },
-    { name: "Laravel", image: "" },
-    { name: "React", image: "" },
-    { name: "ASP .NET", image: "" },
-    { name: "Next.js", image: "" },
-    { name: "MySQL", image: "" },
-    { name: "MSSQL Server", image: "" },
-    { name: "Rabbit MQ", image: "" },
-    { name: "TypeScript", image: "" },
-    { name: "Jenkins", image: "" },
-    { name: "Nginx Server", image: "" },
-    { name: "Apache Server", image: "" },
-    { name: "Postman", image: "" },
-    { name: "Cisco Packet Tracer", image: "" },
-    { name: "Arduino", image: "" },
-    { name: "Tinkercad", image: "" },
+    { name: "jQuery", image: jqueryImage },
+    { name: "PHP", image: phpImage },
+    { name: "Laravel", image: laravelImage },
+    { name: "React", image: reactImage },
+    { name: "ASP .NET", image: aspImage },
+    { name: "Next.js", image: nextjsImage },
+    { name: "MySQL", image: mysqlImage },
+    { name: "MSSQL Server", image: mssqlImage },
+    { name: "Rabbit MQ", image: rabbitmqImage },
+    { name: "TypeScript", image: tsImage },
+    { name: "Jenkins", image: jenkinsImage },
+    { name: "Nginx Server", image: nginxImage },
+    { name: "Apache Server", image: apacheImage },
+    { name: "Postman", image: postmanImage },
+    { name: "Cisco Packet Tracer", image: ciscoImage },
+    { name: "Arduino", image: arduinoImage },
+    { name: "Tinkercad", image: tinkercadImage },
     {
       name: "SOLID Design Principles",
       image: "",
