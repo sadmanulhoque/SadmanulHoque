@@ -9,6 +9,7 @@ import {
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { DATA } from '@/config/data';
+import githubIcon from '@/assets/images/common/github.png';
 
 export default function Projects() {
   return (
@@ -108,9 +109,9 @@ export default function Projects() {
                                                 >
                                                     {link.type === 'Source' && (
                                                         <img 
-                                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqb4aFJSgx2l9M0cVr9JQ8k5PmOUDICY8k-Y9VVYljJw&s" 
+                                                            src={githubIcon} 
                                                             alt="Source"
-                                                            className="h-3 w-3"
+                                                            className="h-3 w-3 dark:invert"
                                                         />
                                                     )}
                                                     {link.type === 'Demo' && <ExternalLink className="h-3 w-3" />}

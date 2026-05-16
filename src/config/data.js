@@ -21,6 +21,13 @@ import song1 from "../assets/images/extracuriculars/uni_cultural_club/1.jpg";
 import song2 from "../assets/images/extracuriculars/uni_cultural_club/2.jpg";
 import song3 from "../assets/images/extracuriculars/uni_cultural_club/3.png";
 
+import ibm from "../assets/images/certifications/ibm.png";
+import micigan from "../assets/images/certifications/michigan_university.png";
+import duke from "../assets/images/certifications/duk_university.png";
+import udemy from "../assets/images/certifications/udemy.png";
+import alberta from "../assets/images/certifications/alberta_university.png";
+import githubIcon from "../assets/images/common/github.png";
+
 export const DATA = {
   // Hero Section
   name: "Sadmanul Hoque",
@@ -132,7 +139,7 @@ export const DATA = {
   tools: [
     { name: "VS Code", image: "" },
     { name: "GitLab", image: "" },
-    { name: "GitHub", image: "" },
+    { name: "GitHub", image: githubIcon },
     { name: "NPM CLI", image: "" },
     { name: "Draw.io", image: "" },
     { name: "Docker", image: "" },
@@ -186,36 +193,35 @@ export const DATA = {
         institution: "IBM",
         org: "Coursera",
         year: "Dec 2024",
-        image_url: "",
+        image_url: ibm,
       },
       {
         title: "Data Visualization with Python",
         institution: "IBM",
         org: "Coursera",
         year: "Dec 2024",
-        image_url:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS28ACx2SQ-kDTr7e_pm7gvyrKVcaod6MaIfVThVy4U_Q&s=10",
+        image_url: ibm,
       },
       {
         title: "Data Analysis with Python",
         institution: "IBM",
         org: "Coursera",
         year: "Jan 2025",
-        image_url: "",
+        image_url: ibm,
       },
       {
         title: "Python Basics",
         institution: "University of Michigan",
         org: "Coursera",
         year: "Dec 2024",
-        image_url: "",
+        image_url: micigan,
       },
       {
         title: "Managing Big Data with MySQL",
         institution: "Duke University",
         org: "Coursera",
         year: "Dec 2024",
-        image_url: "",
+        image_url: duke,
       },
     ],
     software: [
@@ -224,35 +230,35 @@ export const DATA = {
         institution: "IBM",
         org: "Coursera",
         year: "Jan 2025",
-        image_url: "",
+        image_url: ibm,
       },
       {
         title: "Learning Management System (LMS)",
         institution: "Udemy",
         org: "",
         year: "Jan 2025",
-        image_url: "",
+        image_url: udemy,
       },
       {
         title: "Managing Big Data with MYSQL",
         institution: "Duke University",
         org: "Coursera",
         year: "Dec 2024",
-        image_url: "",
+        image_url: duke,
       },
       {
         title: "Relational Databases (RDBMS) Essentials",
         institution: "IBM",
         org: "Coursera",
         year: "Jan 2025",
-        image_url: "",
+        image_url: ibm,
       },
       {
         title: "Introduction to Software Product Management",
         institution: "University of Alberta",
         org: "Coursera",
         year: "Jan 2025",
-        image_url: "",
+        image_url: alberta,
       },
     ],
   },
@@ -265,7 +271,7 @@ export const DATA = {
       GitHub: {
         name: "GitHub",
         url: "https://github.com/yourusername",
-        icon: "github",
+        icon: githubIcon,
         navbar: true,
       },
       LinkedIn: {
@@ -344,7 +350,7 @@ export const DATA = {
       technologies: ["Python", "Classification Models"],
       practices: [],
       tools: ["GitHub", "Colab"],
-      links: [{ type: "Source", href: "#", icon: "github" }],
+      links: [{ type: "Source", href: "#", icon: githubIcon }],
     },
     {
       title: "Smart Plant Watering Embedded System",
@@ -355,7 +361,7 @@ export const DATA = {
       practices: [],
       tools: ["Tinkercad", "GitHub"],
       links: [
-        { type: "Source", href: "#", icon: "github" },
+        { type: "Source", href: "#", icon: githubIcon },
         { type: "Demo", href: "#", icon: "globe" },
       ],
     },
@@ -367,7 +373,7 @@ export const DATA = {
       technologies: ["Cisco Packet Tracer"],
       practices: [],
       tools: ["GitHub"],
-      links: [{ type: "Source", href: "#", icon: "github" }],
+      links: [{ type: "Source", href: "#", icon: githubIcon }],
     },
   ],
 

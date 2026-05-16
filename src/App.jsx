@@ -19,6 +19,7 @@ import { DATA } from '@/config/data';
 import Certifications from '@/components/frontend/Certifications';
 import Services from '@/components/frontend/Services';
 import Footer from '@/components/frontend/Footer';
+import githubIcon from '@/assets/images/common/github.png';
 
 export default function App() {
     const [isDark, setIsDark] = useState(() => {
@@ -77,7 +78,7 @@ export default function App() {
                         />
 
                         <DockItem
-                            icon={<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqb4aFJSgx2l9M0cVr9JQ8k5PmOUDICY8k-Y9VVYljJw&s" alt="GitHub" className="h-5 w-5" />}
+                            icon={<img src={githubIcon} alt="GitHub" className="h-5 w-5 dark:invert" />}
                             label="GitHub"
                             href="https://github.com"
                         />
