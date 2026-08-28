@@ -31,6 +31,10 @@ import postmanImage from "../assets/images/skills/postman.svg";
 import ciscoImage from "../assets/images/skills/cisco.svg";
 import arduinoImage from "../assets/images/skills/ardunio.svg";
 import tinkercadImage from "../assets/images/skills/tinkercad.png";
+import gtm from "../assets/images/skills/gtm.svg";
+import meta from "../assets/images/skills/meta.png";
+
+
 import nasaImage from "../assets/images/extracuriculars/nasa.svg";
 import yImage from "../assets/images/extracuriculars/ycombinator.webp";
 import seuImage from "../assets/images/extracuriculars/seu.png";
@@ -58,6 +62,10 @@ import composerImage from "../assets/images/tools/composer.png";
 import heidisqlImage from "../assets/images/tools/heidisql.png";
 import openprojectImage from "../assets/images/tools/openproject.svg";
 import jiraImage from "../assets/images/tools/jira.svg";
+import ga4 from "../assets/images/tools/ga4.webp";
+import gsc from "../assets/images/tools/gsc.webp";
+
+
 import ardunio from "../assets/images/projects/featured_projects/ardunio.png";
 import networking from "../assets/images/projects/featured_projects/networking.png";
 import sanasfashion from "../assets/images/projects/featured_projects/sanasfashion.png";
@@ -156,19 +164,6 @@ export const DATA = {
       name: "Service Layer Architecture",
       image: "",
     },
-
-    {
-      name: "Facebook Pixel setup",
-      image: "",
-    },
-    {
-      name: "Conversions API setup",
-      image: "",
-    },
-    {
-      name: "Google Tag Manager setup",
-      image: "",
-    },
     {
       name: "Embedded System Sensor Integration",
       image: "",
@@ -179,6 +174,18 @@ export const DATA = {
     },
     {
       name: "Regression Models",
+      image: "",
+    },
+    {
+      name: "Facebook Pixel setup",
+      image: meta,
+    },
+    {
+      name: "Google Tag Manager setup",
+      image: gtm,
+    },
+    {
+      name: "Conversions API setup",
       image: "",
     },
   ],
@@ -199,9 +206,9 @@ export const DATA = {
     { name: "HeidiSQL", image: heidisqlImage },
     { name: "OpenProject", image: openprojectImage },
     { name: "Jira", image: jiraImage },
-    { name: "Google Search Console", image: jiraImage },
-    { name: "Google Analytics", image: jiraImage },
-    { name: "Google Tag Manager", image: jiraImage },
+    { name: "Google Search Console", image: gsc },
+    { name: "Google Analytics", image: ga4 },
+    { name: "Google Tag Manager", image: gtm },
   ],
 
   // Services
