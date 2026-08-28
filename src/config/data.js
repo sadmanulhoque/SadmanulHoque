@@ -156,6 +156,19 @@ export const DATA = {
       name: "Service Layer Architecture",
       image: "",
     },
+
+    {
+      name: "Facebook Pixel setup",
+      image: "",
+    },
+    {
+      name: "Conversions API setup",
+      image: "",
+    },
+    {
+      name: "Google Tag Manager setup",
+      image: "",
+    },
     {
       name: "Embedded System Sensor Integration",
       image: "",
@@ -186,6 +199,9 @@ export const DATA = {
     { name: "HeidiSQL", image: heidisqlImage },
     { name: "OpenProject", image: openprojectImage },
     { name: "Jira", image: jiraImage },
+    { name: "Google Search Console", image: jiraImage },
+    { name: "Google Analytics", image: jiraImage },
+    { name: "Google Tag Manager", image: jiraImage },
   ],
 
   // Services
