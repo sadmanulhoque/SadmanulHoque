@@ -83,14 +83,24 @@ export const DATA = {
   // Experience Section
   experience: [
     {
-      title: "MTO- Software Engineer PHP Developer",
-      company: "PRAN-RFL GROUP",
-      href: "https://company.com",
-      logoUrl: pranrflLogo,
-      start: "",
-      end: "",
+      title: "Software Engineer",
+      company: "Freelance | Gadget Bondhu · Sanas Fashion",
+      href: "",
+      logoUrl: "",
+      start: "Jan 2026",
+      end: "Present",
       description:
-        "Designed and developed a production-grade industry standard CRM system serving as the backbone for customer issue resolution and internal coordination. Implemented ticketing, reporting, and document management systems, improving workflow efficiency and system reliability.",
+        "• Engineered production-grade e-commerce platforms improving usability, performance, and brand storytelling.\n• Developed an ERP-style solution to manage inventory, orders, and sales across both platforms.\n• Implemented a POS system for in-store sales, syncing inventory in real time with the online storefront.\n• Integrated an AI-powered sales agent (Laravel AI SDK) for product recommendations and order assistance.\n• Designed a centralized admin dashboard giving the management team real-time data and reporting.\n• Automated reporting, invoicing, and backup workflows, improving operational efficiency.\n• Streamlined page load speed and responsiveness.\n• Integrated Meta Pixel and Google Tag Manager for conversion tracking and ad targeting.\n• Architected a scalable system for future growth.",
+    },
+    {
+      title: "MTO-Software Engineering (PHP Developer)",
+      company: "PRAN-RFL GROUP",
+      href: "https://pranrflgroup.com",
+      logoUrl: pranrflLogo,
+      start: "Nov 2025",
+      end: "Dec 2025",
+      description:
+        "• Engineered a support ticket system for 1,000+ employees to report device issues.\n• Automated engineer assignment based on issue details and technician location.\n• Implemented ticket escalation, allowing engineers to reassign unresolved tickets.\n• Architected caching to support 6,000+ concurrent dashboard users during peak traffic, preventing crashes.\n• Delivered daily ticket status reports (pending, in-progress, solved) for management review.\n• Developed engineer performance reports tracking tickets resolved per technician.\n• Consolidated HR performance reports across employee data spanning multiple countries.\n• Designed a centralized document management system for factory compliance records.\n• Enabled real-time remote document access for managers traveling internationally.\n• Automated deployments using Jenkins, triggered by GitHub repository changes.",
     },
   ],
 
