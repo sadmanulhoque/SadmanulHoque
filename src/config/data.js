@@ -68,6 +68,7 @@ import ga4 from "../assets/images/tools/ga4.webp";
 import gsc from "../assets/images/tools/gsc.webp";
 
 
+import gb from "../assets/images/projects/featured_projects/gb.png";
 import ardunio from "../assets/images/projects/featured_projects/ardunio.png";
 import networking from "../assets/images/projects/featured_projects/networking.png";
 import sanasfashion from "../assets/images/projects/featured_projects/sanasfashion.png";
@@ -370,10 +371,10 @@ export const DATA = {
   // Projects Section
   projects: [
     {
-      title: "Sanas Fashion",
+      title: "Gadget Bondhu",
       description:
-        "E-commerce platform for fashion items with full-stack development.",
-      image: sanasfashion,
+        "E-commerce platform for gadgets with full-stack development.",
+      image: gb,
       technologies: [
         "HTML",
         "CSS",
