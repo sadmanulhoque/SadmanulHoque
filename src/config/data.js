@@ -404,7 +404,7 @@ export const DATA = {
         "Laragon",
         "HeidiSQL",
       ],
-      links: [{ type: "Live", href: "https://sanasfashion.com", icon: "globe" }],
+      links: [{ type: "Live", href: "https://gadgetbondhu.com", icon: "globe" }],
     },
     {
       title: "SpaceX Falcon 9 1st stage Success-Landing Prediction",
