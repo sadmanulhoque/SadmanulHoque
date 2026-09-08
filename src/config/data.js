@@ -47,7 +47,9 @@ import micigan from "../assets/images/certifications/michigan_university.png";
 import duke from "../assets/images/certifications/duk_university.png";
 import udemy from "../assets/images/certifications/udemy.png";
 import alberta from "../assets/images/certifications/alberta_university.png";
-import githubIcon from "../assets/images/common/github.png";import linkedinIcon from "../assets/images/common/linkedin.png";
+import githubIcon from "../assets/images/common/github.png";
+import linkedinIcon from "../assets/images/common/linkedin.png";
+import gadgetImage from "../assets/images/common/gadget.webp";
 import vsCodeImage from "../assets/images/tools/vs_code.svg";
 import gitlabImage from "../assets/images/tools/gitlab.svg";
 import npmImage from "../assets/images/tools/npm.svg";
@@ -84,9 +86,9 @@ export const DATA = {
   experience: [
     {
       title: "Software Engineer",
-      company: "Freelance | Gadget Bondhu · Sanas Fashion",
-      href: "",
-      logoUrl: "",
+      company: "Freelance",
+      href: "https://gadgetbondhu.com/",
+      logoUrl: gadgetImage,
       start: "Jan 2026",
       end: "Present",
       description:
