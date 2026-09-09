@@ -1,7 +1,7 @@
 // Main configuration file for portfolio/resume data
 // Edit this file to update your portfolio content across the entire site
 
-import profileImage from "../assets/images/profile/profile.jpg";
+import profileImage from "../assets/images/profile/profile.png";
 import pranrflLogo from "../assets/images/work_experience/pranrfl.jpg";
 import uniImage from "../assets/images/education/uni.png";
 import collegeImage from "../assets/images/education/college.png";
