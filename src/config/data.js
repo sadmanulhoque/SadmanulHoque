@@ -36,6 +36,7 @@ import meta from "../assets/images/skills/meta.png";
 
 
 import nasaImage from "../assets/images/extracuriculars/nasa.svg";
+import nasaCertificate from "../assets/images/extracuriculars/nasa_space_app/2026.png";
 import yImage from "../assets/images/extracuriculars/ycombinator.webp";
 import seuImage from "../assets/images/extracuriculars/seu.png";
 import song1 from "../assets/images/extracuriculars/uni_cultural_club/1.jpg";
@@ -490,11 +491,11 @@ export const DATA = {
       image_url: nasaImage,
       status: true,
       media_1: "",
-      media_thumb_1: "",
-      media_type_1: "",
-      media_2: "",
-      media_thumb_2: "",
-      media_type_2: "",
+      media_thumb_1: nasaCertificate,
+      media_type_1: "photo",
+      media_2: "https://www.youtube.com/watch?v=Ck-Lwg8zoN8",
+      media_thumb_2: healthMonitoringSystem,
+      media_type_2: "video",
       media_3: "",
       media_thumb_3: "",
       media_type_3: "",
