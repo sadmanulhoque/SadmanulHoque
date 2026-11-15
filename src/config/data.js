@@ -49,7 +49,8 @@ import udemy from "../assets/images/certifications/udemy.png";
 import alberta from "../assets/images/certifications/alberta_university.png";
 import githubIcon from "../assets/images/common/github.png";
 import linkedinIcon from "../assets/images/common/linkedin.png";
-import gadgetImage from "../assets/images/common/gadget.webp";
+import gadgetImage from "../assets/images/work_experience//gadget.png";
+import sanasImage from "../assets/images/work_experience/sanasfashion.png";
 import vsCodeImage from "../assets/images/tools/vs_code.svg";
 import gitlabImage from "../assets/images/tools/gitlab.svg";
 import npmImage from "../assets/images/tools/npm.svg";
@@ -87,11 +88,21 @@ export const DATA = {
   experience: [
     {
       title: "Software Engineer",
-      company: "Freelance",
+      company: "Gadget Bondhu",
       href: "https://gadgetbondhu.com/",
       logoUrl: gadgetImage,
-      start: "Jan 2026",
+      start: "Aug 2026",
       end: "Present",
+      description:
+        "• Engineered production-grade e-commerce platforms improving usability, performance, and brand storytelling.\n• Developed an ERP-style solution to manage inventory, orders, and sales across both platforms.\n• Implemented a POS system for in-store sales, syncing inventory in real time with the online storefront.\n• Integrated an AI-powered sales agent (Laravel AI SDK) for product recommendations and order assistance.\n• Designed a centralized admin dashboard giving the management team real-time data and reporting.\n• Automated reporting, invoicing, and backup workflows, improving operational efficiency.\n• Streamlined page load speed and responsiveness.\n• Integrated Meta Pixel and Google Tag Manager for conversion tracking and ad targeting.\n• Architected a scalable system for future growth.",
+    },
+    {
+      title: "Software Engineer",
+      company: "Sanas Fashion",
+      href: "https://sanasfashion.com/",
+      logoUrl: sanasImage,
+      start: "Feb 2026",
+      end: "Jul 2026",
       description:
         "• Engineered production-grade e-commerce platforms improving usability, performance, and brand storytelling.\n• Developed an ERP-style solution to manage inventory, orders, and sales across both platforms.\n• Implemented a POS system for in-store sales, syncing inventory in real time with the online storefront.\n• Integrated an AI-powered sales agent (Laravel AI SDK) for product recommendations and order assistance.\n• Designed a centralized admin dashboard giving the management team real-time data and reporting.\n• Automated reporting, invoicing, and backup workflows, improving operational efficiency.\n• Streamlined page load speed and responsiveness.\n• Integrated Meta Pixel and Google Tag Manager for conversion tracking and ad targeting.\n• Architected a scalable system for future growth.",
     },
@@ -101,7 +112,7 @@ export const DATA = {
       href: "https://pranrflgroup.com",
       logoUrl: pranrflLogo,
       start: "Nov 2025",
-      end: "Dec 2025",
+      end: "Jan 2026",
       description:
         "• Engineered a support ticket system for 1,000+ employees to report device issues.\n• Automated engineer assignment based on issue details and technician location.\n• Implemented ticket escalation, allowing engineers to reassign unresolved tickets.\n• Architected caching to support 6,000+ concurrent dashboard users during peak traffic, preventing crashes.\n• Delivered daily ticket status reports (pending, in-progress, solved) for management review.\n• Developed engineer performance reports tracking tickets resolved per technician.\n• Consolidated HR performance reports across employee data spanning multiple countries.\n• Designed a centralized document management system for factory compliance records.\n• Enabled real-time remote document access for managers traveling internationally.\n• Automated deployments using Jenkins, triggered by GitHub repository changes.",
     },
