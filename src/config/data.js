@@ -74,6 +74,7 @@ import ardunio from "../assets/images/projects/featured_projects/ardunio.png";
 import networking from "../assets/images/projects/featured_projects/networking.png";
 import sanasfashion from "../assets/images/projects/featured_projects/sanasfashion.png";
 import spacex from "../assets/images/projects/featured_projects/spacex.gif";
+import healthMonitoringSystem from "../assets/images/projects/featured_projects/health_monitoring_system.png";
 
 export const DATA = {
   // Hero Section
@@ -94,7 +95,7 @@ export const DATA = {
       start: "Aug 2026",
       end: "Present",
       description:
-        "• Engineered production-grade e-commerce platforms improving usability, performance, and brand storytelling.\n• Developed an ERP-style solution to manage inventory, orders, and sales across both platforms.\n• Implemented a POS system for in-store sales, syncing inventory in real time with the online storefront.\n• Integrated an AI-powered sales agent (Laravel AI SDK) for product recommendations and order assistance.\n• Designed a centralized admin dashboard giving the management team real-time data and reporting.\n• Automated reporting, invoicing, and backup workflows, improving operational efficiency.\n• Streamlined page load speed and responsiveness.\n• Integrated Meta Pixel and Google Tag Manager for conversion tracking and ad targeting.\n• Architected a scalable system for future growth.",
+        "• Designed a centralized admin dashboard giving the management team real-time data and reporting.\n• Automated invoice generation reducing processing time by 90%.\n• Implemented automated daily backup, ensuring 100% data recovery.\n• Enable datalyer for accurate event tracking.\n• Integrated Meta Pixel and Google Tag Manager for conversion tracking and ad targeting.\n• Architected a scalable system for future growth.",
     },
     {
       title: "Software Engineer",
@@ -104,7 +105,7 @@ export const DATA = {
       start: "Feb 2026",
       end: "Jul 2026",
       description:
-        "• Engineered production-grade e-commerce platforms improving usability, performance, and brand storytelling.\n• Developed an ERP-style solution to manage inventory, orders, and sales across both platforms.\n• Implemented a POS system for in-store sales, syncing inventory in real time with the online storefront.\n• Integrated an AI-powered sales agent (Laravel AI SDK) for product recommendations and order assistance.\n• Designed a centralized admin dashboard giving the management team real-time data and reporting.\n• Automated reporting, invoicing, and backup workflows, improving operational efficiency.\n• Streamlined page load speed and responsiveness.\n• Integrated Meta Pixel and Google Tag Manager for conversion tracking and ad targeting.\n• Architected a scalable system for future growth.",
+        "• Improved page load speed by 50% after site and query optimization.\n• Developed an ERP-style solution to manage inventory, orders, and sales.\n• Implemented a POS system for in-store sales, syncing inventory in real time with the online storefront.\n• Integrated an AI-powered sales agent (Laravel AI SDK) for product recommendations and order assistance.\n• Generated employee performance reports to help management assess productivity.\n• Engineered production-grade e-commerce platforms improving usability, performance, and brand storytelling.",
     },
     {
       title: "MTO-Software Engineering (PHP Developer)",
@@ -382,6 +383,26 @@ export const DATA = {
   // Projects Section
   projects: [
     {
+      title: "NASA Health Monitoring System",
+      description:
+        "Orbit is a data-driven health monitoring system that helps astronauts track health indicators, identify changes, and take action during long-duration missions affected by radiation, isolation, altered gravity, and other spaceflight challenges.",
+      image: healthMonitoringSystem,
+      technologies: ["HTML", "CSS", "Bootstrap", "jQuery", "PHP", "Laravel", "JavaScript"],
+      practices: [
+        "SOLID Design Principles",
+        "Service Layer Architecture",
+        "Repository Pattern",
+      ],
+      tools: ["VS Code", "Herd"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sadmanulhoque/Orbit-1-NASA-Health-Monitoring-System-2026",
+          icon: githubIcon,
+        },
+      ],
+    },
+    {
       title: "Gadget Bondhu",
       description:
         "E-commerce platform for gadgets with full-stack development.",
@@ -461,7 +482,7 @@ export const DATA = {
   // Extracurricular Activities Section
   extracurricular: [
     {
-      title: "NASA International Space App Challenge",
+      title: "NASA International Space App Challenge 2026",
       org: "NASA",
       year: "",
       desc: "Awarded the Galactic Problem Solver recognition for collaborative problem-solving on Earth and space challenges.",
