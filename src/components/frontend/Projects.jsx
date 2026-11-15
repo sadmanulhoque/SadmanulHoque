@@ -31,7 +31,12 @@ export default function Projects() {
                         return (
                             <Card
                                 key={index}
-                                className="group overflow-hidden border transition-all hover:shadow-md"
+                                className={`group overflow-hidden border transition-all hover:shadow-md ${
+                                    index === DATA.projects.length - 1 &&
+                                    DATA.projects.length % 2 === 1
+                                        ? 'sm:col-span-2 sm:w-1/2 sm:mx-auto'
+                                        : ''
+                                }`}
                             >
                                 <div className="relative aspect-video overflow-hidden bg-muted">
                                     {image ? (
